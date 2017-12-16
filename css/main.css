@@ -24,3 +24,41 @@ nav ul li a {
     color: #777;
 }
 
+/* Sección hero */
+
+figure {
+    height: 100vh;
+    width: 100%;
+    background-image: url("../assets/images/taxi.jpg");
+    background-size: cover;
+    padding: 0 !important;
+}
+
+.hero-content {
+    background-color: #fdb519;
+    width: 100%;
+}
+
+.btn-hero {
+    margin-bottom: 2em;
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+
+/* Media query para dektop */
+@media screen and (min-width: 769px) {
+
+    figure {
+        width: 90%;  
+        height: 80vh; 
+        background-repeat: no-repeat;
+        background-position: 0% 95%;
+        
+    }
+
+
+}
+
+
