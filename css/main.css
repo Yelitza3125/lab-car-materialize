@@ -16,6 +16,18 @@
     border-radius: 5px;
 }
 
+.row {
+    margin: 0 !important;
+}
+
+.row::after {
+    display: none !important;
+}
+
+.container-full {
+    width: 100%;
+}
+
 
 /*Estilos del navbar */
 
@@ -45,6 +57,7 @@ figure {
     background-image: url("../assets/images/taxi.jpg");
     background-size: cover;
     padding: 0 !important;
+    margin: 0 !important;
 }
 
 .hero-content {
@@ -56,6 +69,19 @@ figure {
     margin-bottom: 2em;
     text-transform: none;
 }
+
+
+/* Sección app */
+
+.app-content {
+    background-color: #fdb519;   
+}
+
+.app-content .div-1 {
+    border: 1px solid #fff;
+    margin: 5%;
+}
+
 
 /* Media query para dektop */
 @media screen and (min-width: 769px) {
@@ -96,6 +122,11 @@ figure {
         text-transform: none;
         margin: 1.5em 0 3em 1em;
         
+    }
+
+
+    .app {
+        width: 100%;
     }
 
 
