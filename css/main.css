@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*Estilos del navbar */
+
+.button-collapse i {
+    background-color: #fdb519;
+    color: #777;
+}
+
+.button-collapse {
+    margin-top: 1em;
+}
+
+nav {
+    background: #fff;
+    border: none;
+}
+
+nav ul li a {
+    color: #777;
+}
+
