@@ -4,6 +4,19 @@
     padding: 0;
 }
 
+/*Estilos generales */
+
+.white-color {
+    color: #fff;
+}
+
+.btn-lab {
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+}
+
+
 /*Estilos del navbar */
 
 .button-collapse i {
@@ -41,10 +54,7 @@ figure {
 
 .btn-hero {
     margin-bottom: 2em;
-    background-color: #fff;
-    color: #000;
-    border-radius: 5px;
-    text-transform: capitalize;
+    text-transform: none;
 }
 
 /* Media query para dektop */
@@ -57,6 +67,37 @@ figure {
         background-position: 0% 95%;
         
     }
+
+    .text-desk h5:nth-child(1) {
+        margin-bottom: 0;
+    }
+
+    .text-desk h5:nth-child(2) {
+        margin-top: 0;
+        margin-bottom: 1em;
+    }
+
+    .text-desk h6 img {
+        width: 20%;
+        margin-left: 1em;
+    }
+
+    .text-desk a {
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+    .hero-content hr {
+        background-color: #fff;
+        border: #fff;
+    }
+
+    .hero-content .btn-driver {
+        text-transform: none;
+        margin: 1.5em 0 3em 1em;
+        
+    }
+
 
 
 }
