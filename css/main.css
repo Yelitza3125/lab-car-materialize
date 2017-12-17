@@ -101,6 +101,32 @@ figure.img-driver {
 }
 
 
+/* Sección tarifas */
+
+div.rate {
+    margin-top: 3em;
+    background-color: #fdb519; 
+}
+
+.btn-rate {
+    margin-top:2em;
+    display: flex;
+    justify-content: center;
+}
+
+.img-rate {
+    margin-top: 3em;
+    border: 1px solid #fff;
+    margin-bottom: 2em; 
+}
+
+.img-rate img {
+    padding-top: 1em;
+    padding-bottom: 0.5em;   
+}
+
+
+
 /* Media query para dektop */
 @media screen and (min-width: 769px) {
 
