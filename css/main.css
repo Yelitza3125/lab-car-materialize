@@ -104,8 +104,11 @@ figure.img-driver {
 /* Sección tarifas */
 
 div.rate {
-    margin-top: 3em;
     background-color: #fdb519; 
+}
+
+.text-rate {
+    margin-top: 3em;
 }
 
 .btn-rate {
@@ -215,6 +218,30 @@ div.rate {
     .img-driver div a {
         align-self: flex-start;
     }
+
+    /* Sección tarifa */
+    .rate {
+        display: flex;
+    }
+
+    .rt-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-rate {
+        display: block;
+        margin-left: 0 !important;
+    }
+
+    .btn-rate {
+        display: block;
+    }
+    
+    .img-rate {
+        max-width: 25%;
+    }
+
 
 }
 
