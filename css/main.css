@@ -170,6 +170,26 @@ figure.img-driver {
         width: 70%;
     }
 
+    /* Sección conductor */
+
+    
+    figure.img-driver {
+        height: 50vh;
+    }
+
+    .img-driver div {
+        background-color: rgba(63, 63, 63, 0.5);
+        height: 50vh;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .img-driver div a {
+        align-self: flex-start;
+    }
+
 }
 
 
