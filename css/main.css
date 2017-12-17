@@ -82,6 +82,24 @@ figure {
     margin: 5%;
 }
 
+/*Sección conductor*/
+
+figure.img-driver {
+    height: 80vh;
+    width: 100%;
+    background-image: url("../assets/images/conduce.jpg");
+    background-size: cover;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.img-driver div a {
+    background-color: #fdb519; 
+    color: #fff;
+    border-radius: 5px;
+    text-transform: none; 
+}
+
 
 /* Media query para dektop */
 @media screen and (min-width: 769px) {
@@ -124,12 +142,33 @@ figure {
         
     }
 
+    /*Estilo de la sección app */
 
-    .app {
-        width: 100%;
+    .app-content {
+        height: 50vh;
+        padding-left: 0 !important;      
     }
 
+    .app-text {
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 2em;
+    }
 
+    .app-content .iphone {
+        margin-top: 3em;
+        border: 1px solid #fff;
+    }
+
+    .app-content img {
+        margin-top: 1.5em;
+        margin-bottom: 1.5em;
+    }
+
+    .app-text p {
+        margin-bottom: 1em;
+        width: 70%;
+    }
 
 }
 
