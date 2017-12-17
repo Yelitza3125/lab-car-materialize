@@ -4,6 +4,16 @@
     padding: 0;
 }
 
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
 /*Estilos generales */
 
 .white-color {
@@ -127,6 +137,52 @@ div.rate {
     padding-top: 1em;
     padding-bottom: 0.5em;   
 }
+
+/* Footer */
+
+
+
+footer {
+    background-color: #313131;
+    height: 70vh;
+}
+
+.logo-ft {
+    margin-top: 2em;
+}
+
+.logo-ft img, .img-ft-1 {
+    margin-bottom: 1em;
+}
+
+.ft-content {
+    display: flex;
+    align-items: center;
+}
+
+.icons-mb {
+    display: flex;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+    
+.icons-mb li {
+    margin-right: 2em;
+}
+
+.list-ft, .copy-text {
+    margin-top: 2em;
+}
+
+.list-ft li {
+    margin-bottom: 1em;
+}
+
+.copy-ft {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
 
 
 
