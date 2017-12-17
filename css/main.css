@@ -138,9 +138,8 @@ div.rate {
     padding-bottom: 0.5em;   
 }
 
+
 /* Footer */
-
-
 
 footer {
     background-color: #313131;
@@ -297,6 +296,24 @@ footer {
     .img-rate {
         max-width: 25%;
     }
+
+    /*Footer */
+
+    footer {
+        width: 81%;
+        margin: 0 auto;
+    }
+    
+    .icons-desk {  
+        display: flex;
+        margin-top: 2em;
+        margin-bottom: 1em;
+    }
+            
+    .icons-desk li {
+        margin-right: 1em;    
+     }
+
 
 
 }
