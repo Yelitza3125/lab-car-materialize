@@ -102,7 +102,7 @@
                   <h5 class="white-color">Disfruta del viaje</h5> 
                   <h5 class="white-color">Eres dueño de tu tiempo</h5>
                   <h6 class="white-color">Viaja con 
-                  <img src="assets/images/logoBlanco.png"></h6>  <a class="waves-effect waves-light btn btn-lab">Regístrate</a>
+                  <img src="assets/images/logoBlanco.png"></h6>  <a class="waves-effect waves-light btn btn-lab waves-effect waves-light modal-trigger" href="#modal-reg">Regístrate</a>
                 </div>
                 <div class="col l10 valign-wrapper">
                   <hr class="col l3 ">
@@ -115,6 +115,76 @@
           </div>
         </div>
       </section>
+
+      <!-- Modal de registrate -->
+
+      <div id="modal-reg" class="modal">
+        <div class="modal-content center-align">
+          <div class="form-title">
+              <p>¿Ya tienes una cuenta?</p>
+          </div>
+          <div>
+              <p>O crea una cuenta nueva</p>
+          </div>
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s6">
+                <input id="icon_prefix" type="text" class="validate">
+                <label for="icon_prefix">Nombre</label>
+              </div>             
+            </div>
+            <div class="row">
+              <div class="input-field col s6">
+                <input id="icon_prefix" type="text" class="validate">
+                <label for="icon_prefix">Apellido</label>
+              </div>
+            </div>
+            
+                <div class="row">
+                    <div class="input-field col s12">
+                      <input id="email" type="email" class="validate">
+                      <label for="email" data-error="wrong" data-success="right">Correo electrónico ejemplo@correo.mix</label>
+                    </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col s12">
+                    <input id="icon_telephone" type="tel" class="validate">
+                    <label for="icon_telephone">Teléfono</label>
+                  </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                      <input id="password" type="password" class="validate">
+                      <label for="password">Password</label>
+                    </div> 
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                      <input id="icon_prefix" type="text" class="validate">
+                      <label for="icon_prefix">Ciudad</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                      <input id="icon_prefix" type="text" class="validate">
+                      <label for="icon_prefix">(Opcional) Código de invitación </label>
+                    </div>
+                </div>
+                <div class="row">
+                        <div class="input-field col s12">
+                                <select multiple>
+                                  <option value=""selected>Choose your option</option>
+                                  <option value="1">Option 1</option>
+                                  <option value="2">Option 2</option>
+                                  <option value="3">Option 3</option>
+                                </select>
+                                <label>Materialize Multiple Select</label>
+                              </div> 
+                </div>      
+           
+          </form>    
+        </div>
+      </div> 
 
       <!-- Sección app -->
 
