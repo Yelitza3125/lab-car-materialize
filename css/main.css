@@ -63,7 +63,7 @@ nav ul li a {
 
 figure {
     height: 100vh;
-    width: 100%;
+    width: 80%;
     background-image: url("../assets/images/taxi.jpg");
     background-size: cover;
     padding: 0 !important;
@@ -72,7 +72,7 @@ figure {
 
 .hero-content {
     background-color: #fdb519;
-    width: 100%;
+    width: 80%;
 }
 
 .btn-hero {
@@ -143,7 +143,6 @@ div.rate {
 
 footer {
     background-color: #313131;
-    height: 50vh;
 }
 
 .logo-ft {
@@ -181,6 +180,22 @@ footer {
     margin-top: 1em;
 }
 
+/* Modal */
+
+.btn-log {
+    background-color: #fdb519;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.mod-text {
+    margin-bottom: 2em; 
+}
+
+.modal-close {
+    background-color: #777;
+    color: #fff;
+}
 
 
 
@@ -314,6 +329,10 @@ footer {
         margin-right: 1em;    
      }
 
+     /* Modal */
 
+     .modal {
+         max-width: 30%;
+     }
 
 }
