@@ -139,49 +139,52 @@
                 <label for="icon_prefix">Apellido</label>
               </div>
             </div>
-            
-                <div class="row">
-                    <div class="input-field col s12">
-                      <input id="email" type="email" class="validate">
-                      <label for="email" data-error="wrong" data-success="right">Correo electrónico ejemplo@correo.mix</label>
-                    </div>
-                </div>
-                <div class="row">
-                  <div class="input-field col s12">
-                    <input id="icon_telephone" type="tel" class="validate">
-                    <label for="icon_telephone">Teléfono</label>
-                  </div>
-                </div>
-                <div class="row">
-                    <div class="input-field col s12">
-                      <input id="password" type="password" class="validate">
-                      <label for="password">Password</label>
-                    </div> 
-                </div>
-                <div class="row">
-                    <div class="input-field col s12">
-                      <input id="icon_prefix" type="text" class="validate">
-                      <label for="icon_prefix">Ciudad</label>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="input-field col s12">
-                      <input id="icon_prefix" type="text" class="validate">
-                      <label for="icon_prefix">(Opcional) Código de invitación </label>
-                    </div>
-                </div>
-                <div class="row">
-                        <div class="input-field col s12">
-                                <select multiple>
-                                  <option value=""selected>Choose your option</option>
-                                  <option value="1">Option 1</option>
-                                  <option value="2">Option 2</option>
-                                  <option value="3">Option 3</option>
-                                </select>
-                                <label>Materialize Multiple Select</label>
-                              </div> 
-                </div>      
-           
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="email" type="email" class="validate">
+                <label for="email" data-error="wrong" data-success="right">Correo electrónico ejemplo@correo.mix</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="icon_telephone" type="tel" class="validate">
+                <label for="icon_telephone">Teléfono</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="password" type="password" class="validate">
+                <label for="password">Password</label>
+              </div> 
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="icon_prefix" type="text" class="validate">
+                <label for="icon_prefix">Ciudad</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="icon_prefix" type="text" class="validate">
+                <label for="icon_prefix">(OpCódigo de invitación </label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <select multiple>
+                  <option value=""selected>¿Cómo te enteraste de nosotros?</option>
+                  <option value="1">Redes Sociales</option>
+                  <option value="2">Televisón</option>
+                  <option value="3">Radio</option>
+                  <option value="4">Amigos</option>
+                  <option value="5">Familiares</option>
+                </select>
+                <label></label>
+              </div> 
+            </div>
+            <button class="btn waves-effect waves-light" type="submit" name="action">Enviar
+              <i class="material-icons right">send</i>
+            </button>                
           </form>    
         </div>
       </div> 
@@ -231,12 +234,83 @@
               <div class="white-color col s11 offset-s1 col l5">
                 <h5>Conduce cuando quieras</h5>
                 <h5>LabCar es una opción flexible para alcanzar tus metas financieras</h5>
-                <a class="waves-effect waves-light btn">Conviértete en un conductor</a>
+                <a class="waves-effect waves-light btn modal-trigger" href="#mod-driver">Conviértete en un conductor</a>
               </div>
             </figure>
           </div>
         </div>
       </section>
+
+      <!-- Modal de conviértete en conductor -->
+
+       <div id="mod-driver" class="modal">
+        <div class="modal-content center-align">
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s12">
+                <select>
+                  <option value="" disabled selected>¿Tienes un vehículo de 4 puertas?</option>
+                  <option value="1">Sí</option>
+                  <option value="2">No</option>
+                </select>
+                <label></label>
+              </div>           
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <select>
+                  <option value=""selected>Elige la marca de vehículo</option>
+                  <option value="1">Nissan</option>
+                  <option value="2">WMV</option>
+                  <option value="3">Toyota</option>
+                  <option value="4">Suzuki</option>
+                  <option value="5">Mitsubichi</option>
+                </select>
+                <label></label>
+                <p class="mod-text-driver">¿No ves tu vehículo en la lista? Envía un correo electrónico a <a href="#">sociosumv@uber.com</a></p>
+                  
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                  <select>
+                    <option value=""selected>Modelo</option>
+                    <option value="1">Modelo 1</option>
+                    <option value="2">Modelo 2</option>
+                    <option value="3">Modelo 3</option>
+                    <option value="4">Modelo 4</option>
+                    <option value="5">Modelo 5</option>
+                  </select>
+                  <label></label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                  <select>
+                    <option value=""selected>Año</option>
+                    <option value="1">2017</option>
+                    <option value="2">2016</option>
+                    <option value="3">2015</option>
+                    <option value="4">2014</option>
+                    <option value="5">2013</option>
+                  </select>
+                  <label></label>
+              </div> 
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input placeholder="Numero de matrícula" id="first_name" type="text" class="validate">
+                  <label for="first_name">Número de matrícula</label>
+                  <p class="mod-text-driver">El número de matrícula ayuda a los clientes a identificar tu vehículo</p>      
+              </div>
+            </div>
+            <button class="btn waves-effect waves-light btn-mod-driver" type="submit" name="action">Enviar
+              <i class="material-icons right">send</i>
+            </button>                
+          </form>    
+        </div>
+      </div> 
+
 
       <!--Sección tarifas -->
       <section>

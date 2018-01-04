@@ -180,7 +180,7 @@ footer {
     margin-top: 1em;
 }
 
-/* Modal */
+/* Modal de iniciar sesión*/
 
 .btn-log {
     background-color: #fdb519;
@@ -197,6 +197,27 @@ footer {
     color: #fff;
 }
 
+/* Modal de regístrate */
+
+.form-title {
+    background-color: #fdb519;
+    color: #fff;
+    margin-bottom: 1em;
+}
+
+.form-title {
+    padding: 1em;
+}
+
+/* Modal de "conviértete en conductor */
+
+.mod-text-driver {
+    color: #777;
+}
+
+.btn-mod-driver {
+    margin-top: 2em;
+}
 
 
 /* Media query para dektop */
